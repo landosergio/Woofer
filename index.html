@@ -33,7 +33,7 @@
     <title>Woofer</title>
   </head>
   <body>
-    <header class="bg-light-subtle">
+    <header class="position-fixed w-100">
       <nav class="navbar2 py-2">
         <div class="container d-flex align-items-center flex-nowrap">
           <!-- Brand -->
@@ -42,16 +42,16 @@
           </div>
           <!-- Search -->
           <div
-            class="navbar2__search d-flex align-items-center ms-2 rounded-4 bg-light"
+            class="navbar2__search d-flex align-items-center ms-2 rounded-4 bg-light-subtle"
           >
             <form
-              class="d-flex align-items-center ps-2 rounded-4 bg-light"
+              class="d-flex align-items-center ps-2 rounded-4 bg-light-subtle"
               role="search"
             >
               <i class="bi bi-search ms-2"></i>
 
               <input
-                class="form-control mx-2 border border-0 rounded-4 bg-light-su"
+                class="form-control mx-2 border border-0 rounded-4 bg-light-subtle"
                 type="search"
                 placeholder="Buscar en Woofer"
                 aria-label="Search"
@@ -69,6 +69,8 @@
     <!-- Main -->
 
     <main>
+      <div class="relleno"></div>
+
       <!-- WOOF -->
       <div
         class="woof container d-flex flex-nowrap py-2 border-bottom border-1"
@@ -79,23 +81,21 @@
         </div>
         <!-- Cuerpo -->
         <div class="woof__cuerpo ms-2">
-          <div class="woof__cuerpo__header d-flex">
+          <div class="woof__cuerpo__header d-flex align-items-end">
             <h2 class="nick m-0 me-1">Nylon</h2>
-            <span class="nombre-usuario">@nylonmusk</span>
-            <span class="tiempo">&nbsp;-1h</span>
+            <span class="nombre-usuario me-1">@nylonmusk</span>
+            <span class="tiempo">- 1h</span>
           </div>
-          <div class="woof__cuerpo__texto d-flex">
-            <p>Si no me gusta un Woof lo borro, están avisados jeje.</p>
+          <div class="woof__cuerpo__texto d-flex flex-column">
+            <p class="my-1">
+              Si no me gusta un Woof lo borro, están avisados jeje.
+            </p>
           </div>
 
           <div class="woof__cuerpo__info d-flex justify-content-between">
-            <div class="comentarios">
-              <i class="bi bi-chat-left"></i>&nbsp; 2314
-            </div>
-            <div class="rewoofs">
-              <i class="bi bi-arrow-90deg-up"></i>&nbsp; 342k
-            </div>
-            <div class="likes"><i class="bi bi-heart"></i>&nbsp; 2M</div>
+            <div class="comentarios"><i class="bi bi-chat-left"></i> 2314</div>
+            <div class="rewoofs"><i class="bi bi-arrow-90deg-up"></i> 342k</div>
+            <div class="likes"><i class="bi bi-heart"></i> 2M</div>
           </div>
         </div>
         <!-- Opciones -->
@@ -106,7 +106,6 @@
       </div>
 
       <!-- WOOF -->
-
       <div
         class="woof container d-flex flex-nowrap py-2 border-bottom border-1"
       >
@@ -116,13 +115,13 @@
         </div>
         <!-- Cuerpo -->
         <div class="woof__cuerpo ms-2">
-          <div class="woof__cuerpo__header d-flex">
+          <div class="woof__cuerpo__header d-flex align-items-end">
             <h2 class="nick m-0 me-1">Laura</h2>
-            <span class="nombre-usuario">@lalocadelosperros</span>
-            <span class="tiempo">&nbsp;-3hs</span>
+            <span class="nombre-usuario me-1">@lalocadelosperros</span>
+            <span class="tiempo">- 3hs</span>
           </div>
           <div class="woof__cuerpo__texto d-flex flex-column">
-            <p>Les presento a mi nuevo bebé</p>
+            <p class="my-1">Les presento a mi nuevo bebé</p>
             <img
               src="images/perro.jpg"
               alt=""
@@ -131,13 +130,9 @@
           </div>
 
           <div class="woof__cuerpo__info d-flex justify-content-between">
-            <div class="comentarios">
-              <i class="bi bi-chat-left"></i>&nbsp; 2314
-            </div>
-            <div class="rewoofs">
-              <i class="bi bi-arrow-90deg-up"></i>&nbsp; 342k
-            </div>
-            <div class="likes"><i class="bi bi-heart"></i>&nbsp; 2M</div>
+            <div class="comentarios"><i class="bi bi-chat-left"></i> 2314</div>
+            <div class="rewoofs"><i class="bi bi-arrow-90deg-up"></i> 342k</div>
+            <div class="likes"><i class="bi bi-heart"></i> 2M</div>
           </div>
         </div>
         <!-- Opciones -->
@@ -148,7 +143,6 @@
       </div>
 
       <!-- WOOF -->
-
       <div
         class="woof container d-flex flex-nowrap py-2 border-bottom border-1"
       >
@@ -158,26 +152,22 @@
         </div>
         <!-- Cuerpo -->
         <div class="woof__cuerpo ms-2">
-          <div class="woof__cuerpo__header d-flex">
+          <div class="woof__cuerpo__header d-flex align-items-end">
             <h2 class="nick m-0 me-1">Horacio</h2>
-            <span class="nombre-usuario">@horacioconpelo</span>
-            <span class="tiempo">&nbsp;-5hs</span>
+            <span class="nombre-usuario me-1">@horacioconpelo</span>
+            <span class="tiempo me">- 5hs</span>
           </div>
-          <div class="woof__cuerpo__texto d-flex">
-            <p>
+          <div class="woof__cuerpo__texto d-flex flex-column">
+            <p class="my-1">
               En el Merchoo, escuchando Ferxxooo 🎵 daaale Patricia largá el
               novi!!
             </p>
           </div>
 
           <div class="woof__cuerpo__info d-flex justify-content-between">
-            <div class="comentarios">
-              <i class="bi bi-chat-left"></i>&nbsp; 75
-            </div>
-            <div class="rewoofs">
-              <i class="bi bi-arrow-90deg-up"></i>&nbsp; 150k
-            </div>
-            <div class="likes"><i class="bi bi-heart"></i>&nbsp; 700k</div>
+            <div class="comentarios"><i class="bi bi-chat-left"></i> 75</div>
+            <div class="rewoofs"><i class="bi bi-arrow-90deg-up"></i> 150k</div>
+            <div class="likes"><i class="bi bi-heart"></i> 700k</div>
           </div>
         </div>
         <!-- Opciones -->
@@ -188,7 +178,6 @@
       </div>
 
       <!-- WOOF -->
-
       <div
         class="woof container d-flex flex-nowrap py-2 border-bottom border-1"
       >
@@ -198,26 +187,128 @@
         </div>
         <!-- Cuerpo -->
         <div class="woof__cuerpo ms-2">
-          <div class="woof__cuerpo__header d-flex">
-            <h2 class="nick m-0 me-1">Xavi</h2>
-            <span class="nombre-usuario">@xaviermyley</span>
-            <span class="tiempo">&nbsp;-12hs</span>
+          <div class="woof__cuerpo__header d-flex align-items-end">
+            <h2 class="nick m-0 me-1">Javi</h2>
+            <span class="nombre-usuario me-1">@xaviermyley</span>
+            <span class="tiempo">- 12hs</span>
           </div>
-          <div class="woof__cuerpo__texto d-flex">
-            <p>
+          <div class="woof__cuerpo__texto d-flex flex-column">
+            <p class="my-1">
               Osea digamos.. digamos, o sea, o sea, digamos zurdo empobrecedor
               digamos o sea, o sea es una falacia.
             </p>
           </div>
 
           <div class="woof__cuerpo__info d-flex justify-content-between">
-            <div class="comentarios">
-              <i class="bi bi-chat-left"></i>&nbsp; 7k
-            </div>
-            <div class="rewoofs">
-              <i class="bi bi-arrow-90deg-up"></i>&nbsp; 45M
-            </div>
-            <div class="likes"><i class="bi bi-heart"></i>&nbsp; 153M</div>
+            <div class="comentarios"><i class="bi bi-chat-left"></i> 7k</div>
+            <div class="rewoofs"><i class="bi bi-arrow-90deg-up"></i> 45M</div>
+            <div class="likes"><i class="bi bi-heart"></i> 153M</div>
+          </div>
+        </div>
+        <!-- Opciones -->
+        <div class="woof__opciones d-flex flex-column justify-content-between">
+          <i class="bi bi-menu-button-fill"></i>
+          <i class="bi bi-share"></i>
+        </div>
+      </div>
+      <!-- WOOF -->
+      <div
+        class="woof container d-flex flex-nowrap py-2 border-bottom border-1"
+      >
+        <!-- Foto -->
+        <div class="woof__foto">
+          <img src="images/milei.jpg" alt="" class="rounded-circle" />
+        </div>
+        <!-- Cuerpo -->
+        <div class="woof__cuerpo ms-2">
+          <div class="woof__cuerpo__header d-flex align-items-end">
+            <h2 class="nick m-0 me-1">Javi</h2>
+            <span class="nombre-usuario me-1">@xaviermyley</span>
+            <span class="tiempo">- 12hs</span>
+          </div>
+          <div class="woof__cuerpo__texto d-flex flex-column">
+            <p class="my-1">
+              Osea digamos.. digamos, o sea, o sea, digamos zurdo empobrecedor
+              digamos o sea, o sea es una falacia.
+            </p>
+          </div>
+
+          <div class="woof__cuerpo__info d-flex justify-content-between">
+            <div class="comentarios"><i class="bi bi-chat-left"></i> 7k</div>
+            <div class="rewoofs"><i class="bi bi-arrow-90deg-up"></i> 45M</div>
+            <div class="likes"><i class="bi bi-heart"></i> 153M</div>
+          </div>
+        </div>
+        <!-- Opciones -->
+        <div class="woof__opciones d-flex flex-column justify-content-between">
+          <i class="bi bi-menu-button-fill"></i>
+          <i class="bi bi-share"></i>
+        </div>
+      </div>
+      <!-- WOOF -->
+      <div
+        class="woof container d-flex flex-nowrap py-2 border-bottom border-1"
+      >
+        <!-- Foto -->
+        <div class="woof__foto">
+          <img src="images/milei.jpg" alt="" class="rounded-circle" />
+        </div>
+        <!-- Cuerpo -->
+        <div class="woof__cuerpo ms-2">
+          <div class="woof__cuerpo__header d-flex align-items-end">
+            <h2 class="nick m-0 me-1">Javi</h2>
+            <span class="nombre-usuario me-1">@xaviermyley</span>
+            <span class="tiempo">- 4d</span>
+          </div>
+          <div class="woof__cuerpo__texto d-flex flex-column">
+            <p class="my-1">
+              ¿Este socialista empobrecedor va a ser tu presidente?
+            </p>
+            <img
+              src="images/larreta.jpg"
+              alt=""
+              class="mb-2 rounded-4 border border-1"
+            />
+          </div>
+
+          <div class="woof__cuerpo__info d-flex justify-content-between">
+            <div class="comentarios"><i class="bi bi-chat-left"></i> 2k</div>
+            <div class="rewoofs"><i class="bi bi-arrow-90deg-up"></i> 125k</div>
+            <div class="likes"><i class="bi bi-heart"></i> 300k</div>
+          </div>
+        </div>
+        <!-- Opciones -->
+        <div class="woof__opciones d-flex flex-column justify-content-between">
+          <i class="bi bi-menu-button-fill"></i>
+          <i class="bi bi-share"></i>
+        </div>
+      </div>
+      <!-- WOOF -->
+      <div
+        class="woof container d-flex flex-nowrap py-2 border-bottom border-1"
+      >
+        <!-- Foto -->
+        <div class="woof__foto">
+          <img src="images/milei.jpg" alt="" class="rounded-circle" />
+        </div>
+        <!-- Cuerpo -->
+        <div class="woof__cuerpo ms-2">
+          <div class="woof__cuerpo__header d-flex align-items-end">
+            <h2 class="nick m-0 me-1">Javi</h2>
+            <span class="nombre-usuario me-1">@xaviermyley</span>
+            <span class="tiempo">- 12hs</span>
+          </div>
+          <div class="woof__cuerpo__texto d-flex flex-column">
+            <p class="my-1">
+              Osea digamos.. digamos, o sea, o sea, digamos zurdo empobrecedor
+              digamos o sea, o sea es una falacia.
+            </p>
+          </div>
+
+          <div class="woof__cuerpo__info d-flex justify-content-between">
+            <div class="comentarios"><i class="bi bi-chat-left"></i> 7k</div>
+            <div class="rewoofs"><i class="bi bi-arrow-90deg-up"></i> 45M</div>
+            <div class="likes"><i class="bi bi-heart"></i> 153M</div>
           </div>
         </div>
         <!-- Opciones -->

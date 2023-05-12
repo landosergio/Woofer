@@ -18,27 +18,33 @@
   flex-grow: 1;
 }
 .woof__cuerpo__header h2 {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 .woof__cuerpo__header span {
   height: fit-content;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 .woof__cuerpo__texto p {
   font-size: 0.9rem;
 }
 .woof__cuerpo img {
   width: 100%;
+  max-width: 500px;
 }
 .woof__cuerpo__info {
   width: 75%;
   font-size: 0.7rem;
+  word-spacing: 2px;
 }
 .woof__opciones {
   flex-shrink: 0;
-  width: 20px;
+  width: 10px;
 }
 
+header {
+  background-color: rgba(240, 240, 240, 0.85);
+  backdrop-filter: blur(5px);
+}
 header .navbar2 img {
   width: 30px;
   height: 30px;
@@ -67,6 +73,10 @@ header .navbar2__options {
 }
 header .navbar2__options i {
   font-size: 20px;
+}
+
+main .relleno {
+  height: 50px;
 }
 
 /*# sourceMappingURL=styles.css.map */
