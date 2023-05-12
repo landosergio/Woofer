@@ -1,0 +1,43 @@
+.woof {
+  &__foto {
+    flex-shrink: 0;
+    width: 60px;
+    img {
+      width: 50px;
+      height: 50px;
+    }
+  }
+  &__cuerpo {
+    flex-grow: 1;
+
+    &__header {
+      h2 {
+        font-size: 1.2rem;
+      }
+      span {
+        height: fit-content;
+        font-size: 0.9rem;
+      }
+    }
+
+    &__texto {
+      p {
+        font-size: 0.9rem;
+      }
+    }
+
+    img {
+      width: 100%;
+    }
+
+    &__info {
+      width: 75%;
+      font-size: 0.7rem;
+    }
+  }
+  &__opciones {
+    flex-shrink: 0;
+
+    width: 20px;
+  }
+}

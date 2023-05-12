@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: black;
+  box-sizing: border-box;
+}
+
+.woof__foto {
+  flex-shrink: 0;
+  width: 60px;
+}
+.woof__foto img {
+  width: 50px;
+  height: 50px;
+}
+.woof__cuerpo {
+  flex-grow: 1;
+}
+.woof__cuerpo__header h2 {
+  font-size: 1.2rem;
+}
+.woof__cuerpo__header span {
+  height: fit-content;
+  font-size: 0.9rem;
+}
+.woof__cuerpo__texto p {
+  font-size: 0.9rem;
+}
+.woof__cuerpo img {
+  width: 100%;
+}
+.woof__cuerpo__info {
+  width: 75%;
+  font-size: 0.7rem;
+}
+.woof__opciones {
+  flex-shrink: 0;
+  width: 20px;
+}
+
+header .navbar2 img {
+  width: 30px;
+  height: 30px;
+}
+header .navbar2__brand {
+  flex-shrink: 0;
+  width: 60px;
+}
+header .navbar2__search {
+  flex-grow: 1;
+  height: 30px;
+}
+header .navbar2__search form {
+  width: 100%;
+}
+header .navbar2__search form i {
+  font-size: 14px;
+}
+header .navbar2__search form .form-control {
+  font-size: 12px;
+  height: 20px;
+}
+header .navbar2__options {
+  flex-shrink: 0;
+  width: 60px;
+}
+header .navbar2__options i {
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=styles.css.map */
