@@ -38,23 +38,32 @@
   <body>
     <div>
       <div class="row g-0">
-        <div class="relleno-iz d-none d-sm-flex col-sm-1 col-lg-3"></div>
+        <div class="relleno-iz d-none d-sm-flex col-sm-1 col-xl-2"></div>
 
+        <!-- ASIDE LEFT -->
         <aside
-          class="d-none d-sm-flex position-fixed col-sm-1 col-lg-3 flex-column align-items-center justify-content-start pt-2 border-end border-1 h-100"
+          class="d-none d-sm-flex position-fixed col-sm-1 col-xl-2 flex-column align-items-center justify-content-start pt-3 border-end border-1 h-100"
         >
-          <img src="images/dog.png" alt="" class="mb-3" />
-          <i class="bi bi-search mb-3"></i>
-          <i class="bi bi-gear mb-3"></i>
+          <div class="pt-3">
+            <img src="images/dog.png" alt="" class="mb-3 mx-2" />
+            <div class="d-flex justify-content-start">
+              <i class="bi bi-search mb-3 mx-3"></i
+              ><span class="d-none d-xl-block"> Explorar</span>
+            </div>
+            <div class="d-flex justify-content-start">
+              <i class="bi bi-gear mb-3 mx-3"></i>
+              <span class="d-none d-xl-block"> Configuración</span>
+            </div>
+          </div>
         </aside>
 
         <!-- CENTRO -->
-        <div class="centro col-12 col-sm-11 col-md-10 col-lg-6">
+        <div class="centro col-12 col-sm-11 col-md-10 col-lg-7">
           <!-- HEADER -->
-          <header class="position-fixed col-12 col-sm-11 col-md-10 col-lg-6">
+          <header class="position-fixed col-12 col-sm-11 col-md-10 col-lg-7">
             <nav class="navbar2 py-2">
               <div
-                class="container d-flex align-items-center flex-nowrap justify-content-sm-between"
+                class="mx-2 d-flex align-items-center flex-nowrap justify-content-sm-between"
               >
                 <!-- Brand -->
                 <div
@@ -107,7 +116,7 @@
 
             <!-- WOOF -->
             <div
-              class="woof container d-flex flex-nowrap py-2 border-bottom border-1"
+              class="woof px-2 d-flex flex-nowrap py-2 border-bottom border-1"
             >
               <!-- Foto -->
               <div class="woof__foto">
@@ -145,12 +154,294 @@
                 <i class="bi bi-share"></i>
               </div>
             </div>
+            <!-- WOOF -->
+            <div
+              class="woof px-2 d-flex flex-nowrap py-2 border-bottom border-1 bg-light"
+            >
+              <!-- Foto -->
+              <div class="woof__foto">
+                <img src="images/loca.jpg" alt="" class="rounded-circle" />
+              </div>
+              <!-- Cuerpo -->
+              <div class="woof__cuerpo ms-2">
+                <div class="woof__cuerpo__header d-flex align-items-end">
+                  <h2 class="nick m-0 me-1">Laura</h2>
+                  <span class="nombre-usuario me-1">@lalocadelosperros</span>
+                  <span class="tiempo">- 3hs</span>
+                </div>
+                <div class="woof__cuerpo__texto d-flex flex-column">
+                  <p class="my-1">Les presento a mi nuevo bebé</p>
+                  <img
+                    src="images/perro.jpg"
+                    alt=""
+                    class="mb-2 rounded-4 border border-1"
+                  />
+                </div>
+
+                <div class="woof__cuerpo__info d-flex justify-content-between">
+                  <div class="comentarios">
+                    <i class="bi bi-chat-left"></i> 4
+                  </div>
+                  <div class="rewoofs">
+                    <i class="bi bi-arrow-90deg-up"></i> 0
+                  </div>
+                  <div class="likes"><i class="bi bi-heart"></i> 53</div>
+                  <div class="views"><i class="bi bi-bar-chart"></i> 53</div>
+                </div>
+              </div>
+              <!-- Opciones -->
+              <div
+                class="woof__opciones d-flex flex-column justify-content-between"
+              >
+                <i class="bi bi-menu-button-fill"></i>
+                <i class="bi bi-share"></i>
+              </div>
+            </div>
+
+            <!-- WOOF -->
+            <div
+              class="woof px-2 d-flex flex-nowrap py-2 border-bottom border-1"
+            >
+              <!-- Foto -->
+              <div class="woof__foto">
+                <img src="images/larreta.jpg" alt="" class="rounded-circle" />
+              </div>
+              <!-- Cuerpo -->
+              <div class="woof__cuerpo ms-2">
+                <div class="woof__cuerpo__header d-flex align-items-end">
+                  <h2 class="nick m-0 me-1">Horacio</h2>
+                  <span class="nombre-usuario me-1">@horacioconpelo</span>
+                  <span class="tiempo me">- 5hs</span>
+                </div>
+                <div class="woof__cuerpo__texto d-flex flex-column">
+                  <p class="my-1">
+                    En el Merchoo, escuchando Ferxxooo 🎵 daaale Patricia largá
+                    el novi!!
+                  </p>
+                </div>
+
+                <div class="woof__cuerpo__info d-flex justify-content-between">
+                  <div class="comentarios">
+                    <i class="bi bi-chat-left"></i> 75
+                  </div>
+                  <div class="rewoofs">
+                    <i class="bi bi-arrow-90deg-up"></i> 150k
+                  </div>
+                  <div class="likes"><i class="bi bi-heart"></i> 700k</div>
+                  <div class="views"><i class="bi bi-bar-chart"></i> 700k</div>
+                </div>
+              </div>
+              <!-- Opciones -->
+              <div
+                class="woof__opciones d-flex flex-column justify-content-between"
+              >
+                <i class="bi bi-menu-button-fill"></i>
+                <i class="bi bi-share"></i>
+              </div>
+            </div>
+
+            <!-- WOOF -->
+            <div
+              class="woof px-2 d-flex flex-nowrap py-2 border-bottom border-1 bg-light"
+            >
+              <!-- Foto -->
+              <div class="woof__foto">
+                <img src="images/milei.jpg" alt="" class="rounded-circle" />
+              </div>
+              <!-- Cuerpo -->
+              <div class="woof__cuerpo ms-2">
+                <div class="woof__cuerpo__header d-flex align-items-end">
+                  <h2 class="nick m-0 me-1">Javi</h2>
+                  <span class="nombre-usuario me-1">@xaviermyley</span>
+                  <span class="tiempo">- 12hs</span>
+                </div>
+                <div class="woof__cuerpo__texto d-flex flex-column">
+                  <p class="my-1">
+                    Osea digamos.. digamos, o sea, o sea, digamos zurdo
+                    empobrecedor digamos o sea, o sea es una falacia.
+                  </p>
+                </div>
+
+                <div class="woof__cuerpo__info d-flex justify-content-between">
+                  <div class="comentarios">
+                    <i class="bi bi-chat-left"></i> 7k
+                  </div>
+                  <div class="rewoofs">
+                    <i class="bi bi-arrow-90deg-up"></i> 45M
+                  </div>
+                  <div class="likes"><i class="bi bi-heart"></i> 153M</div>
+                  <div class="views"><i class="bi bi-bar-chart"></i> 153M</div>
+                </div>
+              </div>
+              <!-- Opciones -->
+              <div
+                class="woof__opciones d-flex flex-column justify-content-between"
+              >
+                <i class="bi bi-menu-button-fill"></i>
+                <i class="bi bi-share"></i>
+              </div>
+            </div>
+
+            <!-- WOOF -->
+            <div
+              class="woof px-2 d-flex flex-nowrap py-2 border-bottom border-1"
+            >
+              <!-- Foto -->
+              <div class="woof__foto">
+                <img src="images/milei.jpg" alt="" class="rounded-circle" />
+              </div>
+              <!-- Cuerpo -->
+              <div class="woof__cuerpo ms-2">
+                <div class="woof__cuerpo__header d-flex align-items-end">
+                  <h2 class="nick m-0 me-1">Javi</h2>
+                  <span class="nombre-usuario me-1">@xaviermyley</span>
+                  <span class="tiempo">- 12hs</span>
+                </div>
+                <div class="woof__cuerpo__texto d-flex flex-column">
+                  <p class="my-1">
+                    Osea digamos.. digamos, o sea, o sea, digamos zurdo
+                    empobrecedor digamos o sea, o sea es una falacia.
+                  </p>
+                </div>
+
+                <div class="woof__cuerpo__info d-flex justify-content-between">
+                  <div class="comentarios">
+                    <i class="bi bi-chat-left"></i> 7k
+                  </div>
+                  <div class="rewoofs">
+                    <i class="bi bi-arrow-90deg-up"></i> 45M
+                  </div>
+                  <div class="likes"><i class="bi bi-heart"></i> 153M</div>
+                  <div class="views"><i class="bi bi-bar-chart"></i> 153M</div>
+                </div>
+              </div>
+              <!-- Opciones -->
+              <div
+                class="woof__opciones d-flex flex-column justify-content-between"
+              >
+                <i class="bi bi-menu-button-fill"></i>
+                <i class="bi bi-share"></i>
+              </div>
+            </div>
+
+            <!-- WOOF -->
+            <div
+              class="woof px-2 d-flex flex-nowrap py-2 border-bottom border-1 bg-light"
+            >
+              <!-- Foto -->
+              <div class="woof__foto">
+                <img src="images/milei.jpg" alt="" class="rounded-circle" />
+              </div>
+              <!-- Cuerpo -->
+              <div class="woof__cuerpo ms-2">
+                <div class="woof__cuerpo__header d-flex align-items-end">
+                  <h2 class="nick m-0 me-1">Javi</h2>
+                  <span class="nombre-usuario me-1">@xaviermyley</span>
+                  <span class="tiempo">- 4d</span>
+                </div>
+                <div class="woof__cuerpo__texto d-flex flex-column">
+                  <p class="my-1">
+                    ¿Este socialista empobrecedor va a ser tu presidente?
+                  </p>
+                  <img
+                    src="images/larreta.jpg"
+                    alt=""
+                    class="mb-2 rounded-4 border border-1"
+                  />
+                </div>
+
+                <div class="woof__cuerpo__info d-flex justify-content-between">
+                  <div class="comentarios">
+                    <i class="bi bi-chat-left"></i> 2k
+                  </div>
+                  <div class="rewoofs">
+                    <i class="bi bi-arrow-90deg-up"></i> 125k
+                  </div>
+                  <div class="likes"><i class="bi bi-heart"></i> 300k</div>
+                  <div class="views"><i class="bi bi-bar-chart"></i> 300k</div>
+                </div>
+              </div>
+              <!-- Opciones -->
+              <div
+                class="woof__opciones d-flex flex-column justify-content-between"
+              >
+                <i class="bi bi-menu-button-fill"></i>
+                <i class="bi bi-share"></i>
+              </div>
+            </div>
+
+            <!-- WOOF -->
+            <div
+              class="woof px-2 d-flex flex-nowrap py-2 border-bottom border-1"
+            >
+              <!-- Foto -->
+              <div class="woof__foto">
+                <img src="images/milei.jpg" alt="" class="rounded-circle" />
+              </div>
+              <!-- Cuerpo -->
+              <div class="woof__cuerpo ms-2">
+                <div class="woof__cuerpo__header d-flex align-items-end">
+                  <h2 class="nick m-0 me-1">Javi</h2>
+                  <span class="nombre-usuario me-1">@xaviermyley</span>
+                  <span class="tiempo">- 12hs</span>
+                </div>
+                <div class="woof__cuerpo__texto d-flex flex-column">
+                  <p class="my-1">
+                    Osea digamos.. digamos, o sea, o sea, digamos zurdo
+                    empobrecedor digamos o sea, o sea es una falacia.
+                  </p>
+                </div>
+
+                <div class="woof__cuerpo__info d-flex justify-content-between">
+                  <div class="comentarios">
+                    <i class="bi bi-chat-left"></i> 7k
+                  </div>
+                  <div class="rewoofs">
+                    <i class="bi bi-arrow-90deg-up"></i> 45M
+                  </div>
+                  <div class="likes"><i class="bi bi-heart"></i> 153M</div>
+                  <div class="views"><i class="bi bi-bar-chart"></i> 153M</div>
+                </div>
+              </div>
+              <!-- Opciones -->
+              <div
+                class="woof__opciones d-flex flex-column justify-content-between"
+              >
+                <i class="bi bi-menu-button-fill"></i>
+                <i class="bi bi-share"></i>
+              </div>
+            </div>
           </main>
         </div>
 
+        <!-- ASIDE RIGHT -->
         <aside
-          class="d-none d-md-flex col-md-1 col-lg-3 border-start border-1"
-        ></aside>
+          class="derecha d-none d-md-flex col-md-1 col-lg-3 col-xl-3 border-start border-1"
+        >
+          <div
+            class="d-none d-lg-flex flex-column border border-1 m-3 p-3 rounded-3 position-fixed"
+          >
+            <h2>¿Eres nuevo en Woofer?</h2>
+            <p>
+              Regístrate ahora para obtener tu propia cronología personalizada.
+            </p>
+            <span
+              class="btn border border-1 align-self-center w-75 rounded-4 py-2 my-2"
+            >
+              <i class="bi bi-google"></i> Registrarse con Google</span
+            >
+            <span
+              class="btn border border-1 align-self-center w-75 rounded-4 py-2 my-2"
+            >
+              <i class="bi bi-apple"></i> Registrarse con Apple</span
+            >
+            <span
+              class="btn border border-1 align-self-center w-75 rounded-4 py-2 my-2"
+            >
+              Crear cuenta</span
+            >
+          </div>
+        </aside>
 
         <!-- --- -->
       </div>

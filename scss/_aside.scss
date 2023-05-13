@@ -5,3 +5,22 @@ aside {
     width: 30px;
   }
 }
+
+.derecha {
+  background-color: white;
+
+  div {
+    height: fit-content;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+  p,
+  span {
+    font-size: 0.8rem;
+  }
+  span {
+    font-weight: bold;
+  }
+}
