@@ -22,6 +22,7 @@
 }
 .woof__cuerpo__header span {
   height: fit-content;
+  min-width: 50px;
   font-size: 0.8rem;
 }
 .woof__cuerpo__texto p {
@@ -50,41 +51,51 @@
     display: block;
   }
 }
-header {
-  background-color: rgba(240, 240, 240, 0.85);
-  backdrop-filter: blur(5px);
+aside {
+  background-color: rgb(250, 250, 250);
 }
-header .navbar2 img {
+aside img {
+  width: 30px;
+}
+
+.centro header {
+  background-color: rgba(250, 250, 250, 0.85);
+  backdrop-filter: blur(5px);
+  min-width: 280px;
+}
+.centro header .navbar2 img {
   width: 30px;
   height: 30px;
 }
-header .navbar2__brand {
+.centro header .navbar2__brand {
   flex-shrink: 0;
   width: 60px;
 }
-header .navbar2__search {
+.centro header .navbar2__brand h2 {
+  font-size: 1.2rem;
+}
+.centro header .navbar2__search {
   flex-grow: 1;
   height: 30px;
 }
-header .navbar2__search form {
+.centro header .navbar2__search form {
   width: 100%;
 }
-header .navbar2__search form i {
+.centro header .navbar2__search form i {
   font-size: 14px;
 }
-header .navbar2__search form .form-control {
+.centro header .navbar2__search form .form-control {
   font-size: 12px;
   height: 20px;
 }
-header .navbar2__options {
+.centro header .navbar2__options {
   flex-shrink: 0;
   width: 60px;
 }
-header .navbar2__options i {
+.centro header .navbar2__options i {
   font-size: 20px;
 }
-
-main .relleno {
+.centro main .relleno {
   height: 50px;
 }
 
